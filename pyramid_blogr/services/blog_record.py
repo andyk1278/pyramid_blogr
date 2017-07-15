@@ -1,5 +1,5 @@
 import sqlalchemy as sa
-from paginate_sqlalchemy import SqlalchemyOrmPage # provides pagination
+from paginate_sqlalchemy import SqlalchemyOrmPage
 from ..models.blog_record import BlogRecord
 
 class BlogRecordService(object):
